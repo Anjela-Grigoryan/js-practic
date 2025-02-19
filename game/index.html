@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="canvas">
+            <div class="desc">
+                <h1 class="desc_title desc_h1">угадай число</h1>
+                <p class="desc_title">компютер зогадала число от 1 до 100 ваша задача угадатрь его</p>
+            </div>
+            <div class="field">
+                <label for="field_input" class="filed_label">ваше число</label>
+                <input type="text" class="field_input">
+                <button class="field_button">проверить</button>
+            </div>
+            <div class="result">
+                <div class="result_check bottom">
+                    <span class="result_check_label">результат:</span>
+                    <span class="result_check_out"></span>
+                </div>
+                <div class="result_help bottom">
+                    <span class="result_help_label">подсказка:</span>
+                    <span class="result_help_out"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

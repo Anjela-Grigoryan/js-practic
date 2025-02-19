@@ -1,7 +1,6 @@
 const cardsDiv = document.getElementById('container');
 
 
-
 function newGame(cardsDiv, cardsNum){
     const cardsArr = [];
     let firstCard = null;
